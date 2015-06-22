@@ -1,0 +1,57 @@
+body
+{
+	background-color: #F5F5DC;
+}
+
+table
+{
+	border-spacing: 0 0;
+	background-color: #FF6300;
+	//border-top-right-radius: 15px;
+	//border-top-left-radius: 15px;
+	position: relative;
+	left: 50%;
+	width: 500px;
+	margin-left: -250px;
+	height: 215px;
+}
+
+table tbody tr td
+{
+	border: 1px double white;
+	text-align: center;
+	height: 43px;
+}
+
+/*table tbody tr td, table thead th
+{
+	padding: 5px;
+}*/
+
+table thead
+{
+	background-color: #FFB400;
+}
+
+table thead th
+{
+	border: 1px double white;
+}
+
+#getxlsx
+{
+	margin-top: 10px;
+	width: 200px;
+	height: 30px;
+	position: relative;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.table_wrap
+{
+	border: 2px double rgb(158, 158, 158);
+	padding-top: 24px;
+	padding-bottom: 24px;
+	border-radius: 10px;
+}

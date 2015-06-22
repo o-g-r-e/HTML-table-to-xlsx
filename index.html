@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get XLSX</title>
+<link href="style.css" rel="stylesheet" />
+<script src="getxlsx.js" charset="UTF-8"></script>
+<script type="text/javascript">
+window.onload = function() {
+	var table = document.getElementById("table");
+	var button = document.getElementById("getxlsx");
+	var numberClassName = "number";
+	var filename = "table.xlsx";
+	new GetXlsx(numberClassName, button, table, filename);
+}
+</script>
+</head>
+<body>
+	<div class="table_wrap">
+		<table id="table">
+			<thead>
+				<tr>
+					<th>Model</th>
+					<th>Price</th>
+					<th>Count</th>
+					<th>Level</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>sd-1</td>
+					<td class="number">10,0</td>
+					<td class="number">3</td>
+					<td>High</td>
+				</tr>
+				<tr>
+					<td>sd-2</td>
+					<td class="number">12,2</td>
+					<td class="number">5</td>
+					<td>High+</td>
+				</tr>
+				<tr>
+					<td>sd-3</td>
+					<td class="number">15,5</td>
+					<td class="number">6</td>
+					<td>Medium</td>
+				</tr>
+			</tbody>
+		</table>
+		<input id="getxlsx" type="button" value="Get .xlsx" />
+	</div>
+</body>
+</html>
