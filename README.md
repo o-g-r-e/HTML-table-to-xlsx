@@ -1,1 +1,1 @@
-# HTML-table-to-xlsx
+Конвертер HTML таблиц в .xlsx файл
